@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "@types/node": "^12.12.5",
-    "homebridge": "nfarina/homebridge",
+    "homebridge": "github:nfarina/homebridge",
     "typescript": "^3.6.4"
   },
   "dependencies": {
