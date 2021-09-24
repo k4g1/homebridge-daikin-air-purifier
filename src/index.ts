@@ -35,6 +35,7 @@ class DAP {
     name: string;
     login_id: string;
     password: string;
+    token: string;
     client: Daikin.AirPurifier;
     airPurifierService: any;
     airQualitySensorService: any;
@@ -49,7 +50,8 @@ class DAP {
         this.name = config["name"];
         this.login_id = config['login_id'];
         this.password = config['password'];
-        this.client = new Daikin.AirPurifier(this.login_id, this.password);
+        this.token = config['token'];
+        this.client = new Daikin.AirPurifier(this.login_id, this.password, this.token);
         this.services = [];
 
         // Service "Air Purifier"

@@ -27,7 +27,7 @@
     "typescript": "^3.6.4"
   },
   "dependencies": {
-    "daikin-air-purifier": "github:legnoh/daikin-air-purifier"
+    "daikin-air-purifier": "github:k4g1/daikin-air-purifier"
   },
   "scripts": {
     "build": "rm -rf ./lib/* && tsc",

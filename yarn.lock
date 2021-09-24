@@ -70,12 +70,12 @@ commander@2.8.1:
   dependencies:
     graceful-readlink ">= 1.0.0"
 
-"daikin-air-purifier@github:legnoh/daikin-air-purifier":
+"daikin-air-purifier@github:k4g1/daikin-air-purifier":
   version "0.0.2"
-  uid "059bcd07377b9efac96eb3e33cee917a2dee8c14"
-  resolved "https://codeload.github.com/legnoh/daikin-air-purifier/tar.gz/059bcd07377b9efac96eb3e33cee917a2dee8c14"
+  resolved "https://codeload.github.com/k4g1/daikin-air-purifier/tar.gz/d0d0ff45013ff2f88fd23aa298d7b7b30d05dd73"
   dependencies:
-    axios "^0.19.0"
+    axios "^0.21.4"
+    dotenv "^10.0.0"
 
 debug@=3.1.0:
   version "3.1.0"
